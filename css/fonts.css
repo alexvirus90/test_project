@@ -1,0 +1,23 @@
+/* font-family: "Europe-Bold"; */
+
+@font-face {
+	font-family: "Europe-Bold";
+	src: url("../fonts/Europe-Bold/Europe-Bold.eot");
+	src: url("../fonts/Europe-Bold/Europe-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Europe-Bold/Europe-Bold.woff") format("woff"),
+	url("../fonts/Europe-Bold/Europe-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Europe-Normal"; */
+
+@font-face {
+	font-family: "Europe-Normal";
+	src: url("../fonts/Europe-Normal/Europe-Normal.eot");
+	src: url("../fonts/Europe-Normal/Europe-Normal.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Europe-Normal/Europe-Normal.woff") format("woff"),
+	url("../fonts/Europe-Normal/Europe-Normal.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

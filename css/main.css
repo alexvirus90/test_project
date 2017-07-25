@@ -1,0 +1,103 @@
+body {
+	font-size: 12px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff;
+}
+
+#layout-wrapper {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#left-wrapper {
+	border-right: 23px solid #3b5160;
+	height: 100%;
+	float: left;
+	background-color: #506878;
+	width: 22%;
+	position: relative;
+}
+
+.logo {
+	padding-top: 41px;
+	text-align: center;
+}
+
+.menu-wrapper {
+	border-right: 5px solid #e88d21;
+}
+
+.main-menu-wrapper {
+	background-color: #485d6c;
+	width: 90%;
+	height: 325px;
+	margin: 20px auto;
+}
+
+.main-menu {
+	position: absolute;
+	width: 98%;
+	padding-left: 13px;
+}
+
+.main-menu ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	text-align: right;
+	padding: 0;
+}
+
+.main-menu li {
+	display: block;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.menu-border div {
+	display: inline-block;
+}
+
+.menu-border {
+	padding-right: 35px;
+}
+
+.menu-border .container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu a {
+	color: #fff;
+	font-family: "Europe-Normal";
+	padding: 0;
+	margin: 0;
+}
+
+.text-menu {
+	width: 100px;
+	padding: 3px 0;
+}
+
+.icon {
+	top: 14px;
+}
+
+.icon i {
+	font-size: 16px;
+	color: #a8b4bc;
+}
+
+.main-menu li:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+#right-wrapper {
+	height: 40px;
+	float: right;
+	background-color: blue;
+	width: 78%;
+}
