@@ -20,7 +20,7 @@
 </head>
 <body>
 
-	<section>
+	<section id="layout">
 		<div id="layout-wrapper">
 			<div id="left-wrapper">
 				<div class="logo">
@@ -89,6 +89,14 @@
 					</nav>
 					<div class="main-menu-wrapper"></div>
 				</div>
+				<div class="contact">
+					<div class="number-phone">8 800 400-50-40</div>
+					<div class="time">Пн-Пт с 8:00 до 19:00</div>
+					<div class="icon-connect">
+						<img src="images/call.png" alt="">
+						<img src="images/message.png" alt="">
+					</div>
+				</div>
 			</div>
 			<div id="right-wrapper"></div>
 		</div>
@@ -105,6 +113,15 @@
 	<!--<script src="script/common.js"></script>-->
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+	<script>
+	  function autoResizeDiv()
+	  {
+		document.getElementById('layout').style.height = window.innerHeight +'px';
+	  }
+	  window.onresize = autoResizeDiv;
+	  autoResizeDiv();
+	</script>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

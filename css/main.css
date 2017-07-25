@@ -108,6 +108,28 @@ body {
 	background-color: rgba(0,0,0,.2);
 }
 
+.number-phone {
+	color: #fff;
+	font-family: "Europe-Bold";
+	font-size: 20px;
+	text-align: center;
+}
+.time {
+	color: #fff;
+	font-family: "Europe-Normal";
+	text-align: center;
+}
+
+.icon-connect {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 26px;
+}
+
+.icon-connect img {
+	padding: 0 3px;
+}
+
 #right-wrapper {
 	height: 40px;
 	float: right;
