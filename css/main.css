@@ -69,14 +69,22 @@ body {
 	padding-right: 35px;
 }
 
-.menu-border .container {
+.menu-border .container, .header .container, .video-block .container {
 	width: 100%;
 	padding: 0;
+}
+
+.menu-border .row, .header .row, .video-block .row {
+	padding: 5px 0 0 0;
+}
+
+.header .row, .video-block .row {
+	display: block;
 	margin: 0;
 }
 
-.menu-border .row {
-	padding: 5px 0 0 0;
+.video-block .row {
+	margin: 0 20px;
 }
 
 .main-menu a {
@@ -131,8 +139,48 @@ body {
 }
 
 #right-wrapper {
-	height: 40px;
+	height: 100%;
 	float: right;
-	background-color: blue;
 	width: 80%;
+}
+
+.header {
+	margin: 15px 0 0 65px;
+}
+
+.production {
+	width: 20%;
+	padding: 0;
+}
+
+.quality, .attestation, .supply {
+	margin-right: 15px;
+	width: 25%;
+}
+
+.production div, .quality div, .attestation div, .supply div {
+	padding: 0;
+	margin: 0;
+}
+
+.production img, .quality img, .attestation img, .supply img {
+	float: right;
+}
+
+.production p, .quality p, .attestation p, .supply p {
+	float: left;
+	font-family: "PFDinTextPro-Regular";
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 180px;
+	padding-left: 15px;
+}
+
+.video {
+	padding: 0;
+}
+
+.video-content {
+	display: block;
+	margin: 0 auto;
 }

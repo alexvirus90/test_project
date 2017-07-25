@@ -21,3 +21,15 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+/* font-family: "PFDinTextPro-Regular"; */
+
+@font-face {
+	font-family: "PFDinTextPro-Regular";
+	src: url("../fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.eot");
+	src: url("../fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.woff") format("woff"),
+	url("../fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
