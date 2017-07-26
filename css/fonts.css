@@ -33,3 +33,15 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+/* font-family: "PFDinTextPro-Bold"; */
+
+@font-face {
+	font-family: "PFDinTextPro-Bold";
+	src: url("../fonts/PFDinTextPro-Bold/PFDinTextPro-Bold.eot");
+	src: url("../fonts/PFDinTextPro-Bold/PFDinTextPro-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PFDinTextPro-Bold/PFDinTextPro-Bold.woff") format("woff"),
+	url("../fonts/PFDinTextPro-Bold/PFDinTextPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
