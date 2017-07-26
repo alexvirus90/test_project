@@ -3,7 +3,7 @@
 <!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
@@ -14,9 +14,9 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<!--<link rel="stylesheet" href="css/media.css" />-->
 </head>
 <body>
 
@@ -161,8 +161,10 @@
 										<div class="col-md-6 form-input">
 											<input class="form-text" type="text" value="Укажите ваш e-mail" />
 										</div>
-										<div class="col-md-6 btn-set">
-											<button class="btn">получить</button>
+										<div class="col-md-6 btn-set-callback">
+											<div class="btn-set">
+												<a href="#callback" onclick="myFunction()" class="btn fancybox">получить</a>
+											</div>
 										</div>
 									</div>
 								</section>
@@ -188,8 +190,7 @@
 							</div>
 							<div class="col-md-3 info-nomenclature">
 								<section class="nomenclature">
-									<div class="text-nomenclature">Номенклатура трубопроводной</br >арматуры
-										производства
+									<div class="text-nomenclature">Номенклатура трубопроводной</br >арматуры производства
 										</br >АЗ «ПОТОК»</div>
 									<div class="nomenclature-catalog">
 										<div class="col-md-3 colunm-1">
@@ -237,6 +238,29 @@
 		</div>
 	</section>
 
+	<div class="hidden">
+		<form id="callback" class="pop_form">
+			<p class="text-1">Дорогой друг!</p></br >
+			<p class="text-2">Мы хотим сделать для вас <span><b>максимально выгодное предложение!</b></span></br >Для этого нам нужно узнать о Вас и Вашей компании немного побольше :)</p>
+			<div class="standard-price">
+				<p class="text-3">Если вы хотите получить стандартный прайс-лист</br >-> оставьте поля анкеты пустыми -> <b>нажмите «Получить»</b></p>
+			</div>
+			<div class="col-md-6 colunm-left">
+				<input type="text" name="name" placeholder="Ваше имя" />
+				<input type="text" name="phone" placeholder="Ваш контактный телефон" />
+				<p>Пожалуйста, проверьте,</br > это правильный e-mail?</p>
+			</div>
+			<div class="col-md-6 colunm-right">
+				<input type="text" name="company" placeholder="Название вашей организации" />
+				<input type="text" name="address" placeholder="Адрес организации" />
+				<input type="text" name="e-mail" placeholder="Автоматически дублируется с главной" />
+			</div>
+			<div class="btn-set">
+				<button class="btn btn-set btn-popup">получить</button>
+			</div>
+		</form>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -244,8 +268,9 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
-	<!--<script src="script/common.js"></script>-->
+	<script src="script/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 
@@ -255,6 +280,14 @@
 	  }
 	  window.onresize = autoResizeDiv;
 	  autoResizeDiv();
+	</script>
+
+	<script>
+	  // When the user clicks on div, open the popup
+	  function myFunction() {
+		var popup = document.getElementById("callback");
+		popup.classList.toggle("show");
+	  }
 	</script>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

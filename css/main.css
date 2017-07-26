@@ -231,7 +231,16 @@ body {
 }
 
 .form-input {
-	width: 200px;
+	width: 195px;
+}
+
+.btn-set {
+	width: 190px;
+	height: 40px;
+}
+
+.btn-set-callback {
+	padding: 0;
 }
 
 .form-text {
@@ -248,10 +257,11 @@ body {
 	border: 0;
 	background-color: #e88d21;
 	color: #fff;
-	height: 40px;
-	padding-left: 10px;
+	display: block;
+	height: 100%;
+	padding: 13px 0;
+	text-align: center;
 	text-transform: uppercase;
-	width: 190px;
 }
 
 .btn button {
@@ -354,3 +364,93 @@ body {
 	margin: 0 29px;
 	padding: 0;
 }
+
+.hidden{
+	/*display: none;*/
+}
+
+.pop_form p {
+	color: #fff;
+	font-family: "PFDinTextPro-Regular";
+}
+
+.standard-price {
+	background-color: #3b5160;
+	color: #fff;
+	height: 50px;
+	margin-bottom: 30px;
+	padding: 0 0 0 35px;
+	width: 400px;
+	vertical-align: middle;
+}
+
+.pop_form .text-1 {
+	text-transform: uppercase;
+	padding: 32px 0 0 35px;
+	margin: 0;
+	font-family: "PFDinTextPro-Regular";
+}
+
+.pop_form .text-2 {
+	margin: 0;
+	padding: 0 0 20px 35px;
+	font-family: "PFDinTextPro-Regular";
+}
+
+.pop_form .text-3 {
+	margin: 0;
+	padding: 8px 0;
+	font-family: "PFDinTextPro-Regular";
+}
+
+.pop_form input[type=text] {
+	display: block;
+	width: 90%;
+	line-height: 30px;
+	margin: 0 0 9px 0;
+	font-family: "PFDinTextPro-Regular";
+	padding: 0 0 0 13px;
+}
+
+.colunm-left {
+	padding: 0 5px 0 0;
+	text-align: right;
+}
+
+.colunm-left input {
+	float: right;
+}
+
+.colunm-left p {
+	padding: 80px 0 0 0;
+}
+
+.btn-popup {
+	margin-top: 180px;
+}
+
+.colunm-right {
+	padding: 0 0 0 5px;
+}
+
+.fancybox-desktop {
+	width: 550px !important;
+}
+
+.fancybox-skin {
+	background-color: #506878;
+	border-top: 5px solid #e88d21;
+	border-radius: 0;
+	padding: 0 !important;
+}
+
+.fancybox-close {
+	top: 3px;
+	right: 5px;
+}
+
+.fancybox-inner {
+	height: 420px !important;
+	width: auto !important;
+}
+
